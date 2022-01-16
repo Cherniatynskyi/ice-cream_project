@@ -30,8 +30,10 @@
     
 
 }
+
+
 .gallery__container :nth-child(2){
-    margin-top: 40px;
+    margin-top: 50px;
 
 }
 .gallery__container :nth-child(4){
@@ -39,14 +41,15 @@
 
 }
 .gallery__container :nth-child(5){
-    
+    padding: ;
+  }
 
-}
 .gallery__box-img{
     display: block;
     width: auto;
-    max-width: 320px;
+    max-width: 100%;
     padding: 0 5px;
+    height: 100%;
 
    
 }
@@ -94,5 +97,4 @@
     #ffffff 40%,
     #ffffff 60%
 );
-
 }
