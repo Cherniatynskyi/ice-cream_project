@@ -6,10 +6,9 @@
         #ffffff 40%,
         #ffffff 60%
       );
+      width: 320px;
     
-    @media screen and(min-width:320px){
-        width: 320px;
-    }
+  
     @media screen and(min-width:480px){
         width: 480px;      
            
@@ -27,11 +26,8 @@
 }
 .gallery__png{
     display: block;
-    // @extend .gallery__container;
-    @media screen and(min-width:320px){
-        width: 320px;
-           
-    }
+    width: 320px;
+  
     @media screen and(min-width:480px){
         width: 480px;
            
@@ -46,14 +42,10 @@
     }
    
 }
-.gallery__img{
+.gallery .gallery__img{
     display: block;
     width: 320px;
-    // @extend .gallery__container;
-    @media screen and(min-width:320px){
-        width: 320px;
-           
-    }
+ 
     @media screen and(min-width:480px){
         width: 480px;
            
