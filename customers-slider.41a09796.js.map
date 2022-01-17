@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/customers-slider.js"],"names":["$","document","ready","slick"],"mappings":";AAAAA,EAAEC,UAAUC,MAAM,WACdF,EAAE,6BAA6BG","file":"customers-slider.41a09796.js","sourceRoot":"../src","sourcesContent":["$(document).ready(function(){\n    $('.customer-section__slider').slick\n});"]}
