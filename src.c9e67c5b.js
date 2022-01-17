@@ -11,4 +11,4 @@ $(document).ready(function(){$(".customer-section__slider").slick()});
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/products-desc-data.js"),require("./js/mobile-menu.js"),require("./js/modal.js"),require("./js/customers-slider.js");
 },{"./sass/main.scss":"clu1","./js/products-desc-data.js":"GKsu","./js/mobile-menu.js":"sByI","./js/modal.js":"RSqK","./js/customers-slider.js":"ZFSF"}]},{},["Focm"], null)
-//# sourceMappingURL=/ice-cream_project/src.5ebc1414.js.map
+//# sourceMappingURL=/ice-cream_project/src.c9e67c5b.js.map
