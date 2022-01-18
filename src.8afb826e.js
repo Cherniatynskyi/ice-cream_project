@@ -7,8 +7,8 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"RSqK":[function(require,module,exports) {
 (()=>{const e={openModalBtn:document.querySelector("[data-modal-open]"),closeModalBtn:document.querySelector("[data-modal-close]"),modal:document.querySelector("[data-modal]")};function o(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o)})();
 },{}],"ZFSF":[function(require,module,exports) {
-$(document).ready(function(){$(".customer-section__slider").slick()});
+$(document).ready(function(){$(".customer-section__slider").slick({arrows:!1,dots:!0})});
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/products-desc-data.js"),require("./js/mobile-menu.js"),require("./js/modal.js"),require("./js/customers-slider.js");
 },{"./sass/main.scss":"clu1","./js/products-desc-data.js":"GKsu","./js/mobile-menu.js":"sByI","./js/modal.js":"RSqK","./js/customers-slider.js":"ZFSF"}]},{},["Focm"], null)
-//# sourceMappingURL=/ice-cream_project/src.bad745ef.js.map
+//# sourceMappingURL=/ice-cream_project/src.8afb826e.js.map
