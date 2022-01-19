@@ -1,5 +1,6 @@
 .header {
     background-color: #ffb8ca;
+    outline: 1px solid #ffb8ca;
 }
 .content-container--header {
     padding-top: 6px;
@@ -7,7 +8,6 @@
     justify-content: space-between;
     align-items: center;
     @media screen and (min-width: 768px) {
-        // padding-left: 34px;
         padding-top: 38px;
     }
     @media screen and (min-width: 1280px) {
@@ -15,7 +15,9 @@
     }
 }
 .logo {
-    margin-left: 34px;
+    @media screen and (min-width: 768px) {
+        margin-left: 34px;
+    }
     @media screen and (min-width: 1280px) {
         margin-left: 31px;
     }
