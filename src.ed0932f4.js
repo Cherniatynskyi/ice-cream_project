@@ -5,10 +5,10 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"sByI":[function(require,module,exports) {
 (()=>{const e={openModalBtn:document.querySelector(".btn-open"),closeModalBtn:document.querySelector(".close-menu-btn"),modal:document.querySelector(".mob-menu")};function n(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",n),e.closeModalBtn.addEventListener("click",n)})();
 },{}],"RSqK":[function(require,module,exports) {
-(()=>{const e={openModalBtn:document.querySelector("[data-modal-open]"),closeModalBtn:document.querySelector("[data-modal-close]"),modal:document.querySelector("[data-modal]")};function o(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o)})(),(()=>{const e={openModalBtn:document.querySelector("[data-mob-open]"),closeModalBtn:document.querySelector("[data-modal-close]"),modal:document.querySelector("[data-modal]")};function o(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o)})();
+(()=>{const o={openModalBtn:document.querySelector("[data-modal-open]"),closeModalBtn:document.querySelector("[data-modal-close]"),modal:document.querySelector("[data-modal]")};function e(){o.modal.classList.toggle("is-hidden"),document.body.classList.toggle("no-scroll")}o.openModalBtn.addEventListener("click",e),o.closeModalBtn.addEventListener("click",e)})();
 },{}],"ZFSF":[function(require,module,exports) {
 $(document).ready(function(){$(".customer-section__slider").slick({arrows:!1,dots:!0})});
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/products-desc-data.js"),require("./js/mobile-menu.js"),require("./js/modal.js"),require("./js/customers-slider.js");
 },{"./sass/main.scss":"clu1","./js/products-desc-data.js":"GKsu","./js/mobile-menu.js":"sByI","./js/modal.js":"RSqK","./js/customers-slider.js":"ZFSF"}]},{},["Focm"], null)
-//# sourceMappingURL=/ice-cream_project/src.e8591958.js.map
+//# sourceMappingURL=/ice-cream_project/src.ed0932f4.js.map
