@@ -1,6 +1,5 @@
 .header {
     background-color: #ffb8ca;
-    outline: 1px solid #ffb8ca;
 }
 .content-container--header {
     padding-top: 6px;
@@ -11,7 +10,7 @@
         padding-top: 38px;
     }
     @media screen and (min-width: 1280px) {
-        padding-right: 115px;
+        padding-right: 75px;
     }
 }
 .logo {
