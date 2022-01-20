@@ -1,11 +1,15 @@
 .mob-menu {
     background: #e17992;
-    height: 502px;
-    width: 250px;
+    height: 100vh;
+    width: 100%;
     position: fixed;
-    top: 2%;
-    right: 5%;
-    z-index: 999;
+    top: 0;
+    right: 0;
+    z-index: 500;
+    @media screen and (min-width: 768px) {
+        height: 100vh;
+        width: 30%;
+    }
 }
 .mob-menu-list {
     margin-top: 19px;
@@ -80,6 +84,7 @@
     text-align: center;
     color: $red-color;
 }
+
 .header-btn-mob {
     margin-left: 34px;
     margin-right: 34px;
@@ -102,5 +107,8 @@
     &:hover {
         color: $red-color;
         background-color: #ecebeb;
+    }
+    @media screen and (min-width: 768px) {
+        display: none;
     }
 }
