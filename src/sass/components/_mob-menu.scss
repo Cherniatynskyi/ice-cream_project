@@ -33,7 +33,7 @@
     color: $white-text-color;
     &:active,
     &:focus,
-    &:hover{
+    &:hover {
         color: $red-color;
     }
 }
@@ -92,14 +92,13 @@
 }
 
 .header-btn-mob {
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left: 20%;
     height: 44px;
-    width: 186px;
+    width: 209px;
     font-family: DM Sans;
     font-weight: 700;
     font-size: 16px;
-    line-height: calc(21 / 16);    
+    line-height: calc(21 / 16);
     border-radius: 22px;
     border: 0;
     color: $red-color;
@@ -110,5 +109,9 @@
     &:hover {
         color: $red-color;
         background-color: #ecebeb;
-    }    
+    }
+    @media screen and (min-width: 768px) {
+        width: 189px;
+        margin-left: 10%;
+    }
 }
