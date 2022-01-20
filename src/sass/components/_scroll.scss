@@ -1,0 +1,13 @@
+.upLink {
+    position: fixed;
+    bottom: 55px;
+    right: 20px;
+
+    font-family: 'Titan One';
+
+    color: $red-color;
+    font-size: 19px;
+    @media screen and (min-width: 768px) {
+        font-size: 30px;
+    }
+}
